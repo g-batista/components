@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpatelAddDaysComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() {
+ }
 
   ngOnInit(): void {
+      const newDate = new Date();
+      console.log(newDate);
+
+
+  }
+  get todaysDate() {
+      return (new Date());
   }
 
 }
