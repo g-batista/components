@@ -1,5 +1,7 @@
-<p>spatel-add-days works!</p>
+<br>
 <h2>Todays Date is {{todaysDate | date:'yyyy-MM-dd'}}</h2>
 
-<input type="number" name="" value="">
-<button >Add Days</button>
+<div id="dateSection">
+<input type="number" matInput value="" id="inputDays">
+<button mat-raised-button color="primary" (click)="inputDays()">Add Days</button>
+</div>
