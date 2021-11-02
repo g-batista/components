@@ -22,6 +22,8 @@ import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplicat
 import { MatInputModule } from '@angular/material/input';
 import { MtbSelectComponent } from './mtb-select/mtb-select.component';
 import { CommonModule } from '@angular/common';
+import {MatRadioModule} from '@angular/material/radio'
+import { BoredComponent } from './bored/bored.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { CommonModule } from '@angular/common';
     , JacComponentComponent
     , JvSlackNTellComponent
     , PnFizzBuzzComponent
+    , BoredComponent
   ],
   imports: [
     BrowserModule
@@ -46,6 +49,8 @@ import { CommonModule } from '@angular/common';
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
+    , MatRadioModule
+
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
