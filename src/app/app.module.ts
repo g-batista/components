@@ -26,6 +26,9 @@ import { MtbSelectComponent } from './mtb-select/mtb-select.component';
 import { CommonModule } from '@angular/common';
 import { GbatistaAddComponent } from './gbatista-add/gbatista-add.component';
 
+import {MatMenuModule} from '@angular/material/menu';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -49,6 +52,7 @@ import { GbatistaAddComponent } from './gbatista-add/gbatista-add.component';
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
+    , MatMenuModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

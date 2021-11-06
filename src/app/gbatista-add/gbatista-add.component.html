@@ -30,10 +30,41 @@
         <button 
             mat-mini-fab
             (click)="add()"
+            (click)="m()"
+            (click)="d()"
+            
         >
             =
         </button>
-        &nbsp;
-        {{ total }}
+
+        &nbsp; 
+
+        {{total}}
+
+        <button
+            mat-button [matMenuTriggerFor]= "menu"
+        >
+            Chek More Answers
+        </button>
+        <mat-menu
+            #menu = "matMenu"
+        >
+            <button
+                mat-menu-item
+            >
+                Addition = {{total}}
+            </button>
+            <button
+            mat-menu-item
+            >
+            Multiplication = {{mutiplay}}
+            </button>
+            <button
+            mat-menu-item
+            >
+            Division = {{divide}}
+            </button>
+        </mat-menu>  
+
     </mat-card-content>
 </mat-card>
