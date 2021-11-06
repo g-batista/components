@@ -28,7 +28,7 @@ import { BoredComponent } from './bored/bored.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
     , PizzaToppingsComponent
     , TjsMultiplicationComponent
     , MtbSelectComponent
@@ -52,7 +52,6 @@ import { BoredComponent } from './bored/bored.component';
     , MatExpansionModule
     , MatSelectModule
     , MatRadioModule
-
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
