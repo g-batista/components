@@ -24,6 +24,7 @@ import { MtbSelectComponent } from './mtb-select/mtb-select.component';
 import { CommonModule } from '@angular/common';
 import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
+import { DsAdditionComponent } from './ds-addition/ds-addition.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { BoredComponent } from './bored/bored.component';
     , JacComponentComponent
     , JvSlackNTellComponent
     , PnFizzBuzzComponent
-    , BoredComponent
+    , BoredComponent, DsAdditionComponent
   ],
   imports: [
     BrowserModule
