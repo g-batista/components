@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { TjsAdditionComponent } from './tjs-addition/tjs-addition.component';
 import { MatCheckboxModule, _MatCheckboxRequiredValidatorModule } from '@angular/material/checkbox';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSelectModule } from '@angular/material/select';
@@ -35,6 +36,7 @@ import { BoredComponent } from './bored/bored.component';
     , JvSlackNTellComponent
     , PnFizzBuzzComponent
     , BoredComponent
+    , TjsAdditionComponent
   ],
   imports: [
     BrowserModule
@@ -50,7 +52,6 @@ import { BoredComponent } from './bored/bored.component';
     , MatExpansionModule
     , MatSelectModule
     , MatRadioModule
-
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
