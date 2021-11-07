@@ -26,7 +26,8 @@ import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
 
 import { DsAdditionComponent } from './ds-addition/ds-addition.component';
-import { MatSlideToggleModule} from '@angular/material/slide-toggle'
+import { MatSlideToggleModule} from '@angular/material/slide-toggle';
+
 
 
 @NgModule({

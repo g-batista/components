@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DsAdditionComponent implements OnInit {
 
-  constructor() { }
+  isChecked = true;
+
 
   ngOnInit(): void {
   }
 
+  thankyou = () => {
+    alert("Thank you for letting us know!")
+  };
 }
