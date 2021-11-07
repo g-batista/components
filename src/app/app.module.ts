@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { TjsAdditionComponent } from './tjs-addition/tjs-addition.component';
 import { MatCheckboxModule, _MatCheckboxRequiredValidatorModule } from '@angular/material/checkbox';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSelectModule } from '@angular/material/select';
@@ -28,6 +29,8 @@ import { GbatistaAddComponent } from './gbatista-add/gbatista-add.component';
 
 import {MatMenuModule} from '@angular/material/menu';
 
+import {MatRadioModule} from '@angular/material/radio'
+import { BoredComponent } from './bored/bored.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import {MatMenuModule} from '@angular/material/menu';
     , JacComponentComponent
     , JvSlackNTellComponent
     , PnFizzBuzzComponent, GbatistaAddComponent
+    , PnFizzBuzzComponent
+    , BoredComponent
+    , TjsAdditionComponent
   ],
   imports: [
     BrowserModule
@@ -53,6 +59,7 @@ import {MatMenuModule} from '@angular/material/menu';
     , MatExpansionModule
     , MatSelectModule
     , MatMenuModule
+    , MatRadioModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
