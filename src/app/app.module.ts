@@ -19,9 +19,14 @@ import { JvSlackNTellComponent } from './jv-slack-n-tell/jv-slack-n-tell.compone
 
 import { JacComponentComponent } from './jac-component/jac-component.component';
 import { MatFormFieldModule} from '@angular/material/form-field';
+/*import {MatSelectModule} from '@angular/material/select'*/
 
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { MatInputModule } from '@angular/material/input';
+import { JtikuColorGameComponent } from './jtiku-color-game/jtiku-color-game.component';
+
+
+
 
 import { MtbSelectComponent } from './mtb-select/mtb-select.component';
 import { CommonModule } from '@angular/common';
@@ -37,6 +42,7 @@ import { BoredComponent } from './bored/bored.component';
     AppComponent
     , PizzaToppingsComponent
     , TjsMultiplicationComponent
+    , JvSlackNTellComponent, JtikuColorGameComponent
     , MtbSelectComponent
     , JacComponentComponent
     , JvSlackNTellComponent
@@ -55,6 +61,7 @@ import { BoredComponent } from './bored/bored.component';
     , MatFormFieldModule
     , MatSelectModule
     , MatInputModule
+    
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
