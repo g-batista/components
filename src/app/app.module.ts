@@ -16,6 +16,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSelectModule } from '@angular/material/select';
 import { JvSlackNTellComponent } from './jv-slack-n-tell/jv-slack-n-tell.component';
 
+
 import { JacComponentComponent } from './jac-component/jac-component.component';
 import { MatFormFieldModule} from '@angular/material/form-field';
 /*import {MatSelectModule} from '@angular/material/select'*/
@@ -29,6 +30,10 @@ import { JtikuColorGameComponent } from './jtiku-color-game/jtiku-color-game.com
 
 import { MtbSelectComponent } from './mtb-select/mtb-select.component';
 import { CommonModule } from '@angular/common';
+import { GbatistaAddComponent } from './gbatista-add/gbatista-add.component';
+
+import {MatMenuModule} from '@angular/material/menu';
+
 import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
 
@@ -41,6 +46,7 @@ import { BoredComponent } from './bored/bored.component';
     , MtbSelectComponent
     , JacComponentComponent
     , JvSlackNTellComponent
+    , PnFizzBuzzComponent, GbatistaAddComponent
     , PnFizzBuzzComponent
     , BoredComponent
     , TjsAdditionComponent
@@ -59,6 +65,7 @@ import { BoredComponent } from './bored/bored.component';
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
+    , MatMenuModule
     , MatRadioModule
   ],
   providers: [],
