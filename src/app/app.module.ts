@@ -73,6 +73,7 @@ import { MatSlideToggleModule} from '@angular/material/slide-toggle';
     , MatSelectModule
     , MatMenuModule
     , MatRadioModule
+    , MatSlideToggleModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
