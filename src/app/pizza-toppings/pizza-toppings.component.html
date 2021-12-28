@@ -4,13 +4,15 @@
     </mat-card-title>
 
     <mat-card-content>
+        <!-- mat-mini-fab é um css atributo  -->
         <button
             mat-mini-fab
             (click)="chekAll()"
         >
             All
         </button>
-        &nbsp;
+        <!-- isso é u, espaco na mesma linha/ conhecido como entites HTMl -->
+        &nbsp;  
         <button
             mat-mini-fab
             color= "secondary"
@@ -24,6 +26,7 @@
         <div
             *ngFor="let pt of availablePizzaToppings"
         >
+            <!-- se as checkbox estiverem dentro do label o texto tambem funciona como checker -->
             <label>
                 <mat-checkbox 
                     [(ngModel)]="pt.checked"
@@ -31,6 +34,7 @@
                 </mat-checkbox>
                 {{ pt.name }} ({{ pt.price | currency }})
             </label>
+
         </div>
         <br>
         <h3>
