@@ -36,6 +36,7 @@ import {MatMenuModule} from '@angular/material/menu';
 
 import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
+import { GbStepperComponent } from './gb-stepper/gb-stepper.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import { BoredComponent } from './bored/bored.component';
     , PnFizzBuzzComponent, GbatistaAddComponent
     , PnFizzBuzzComponent
     , BoredComponent
-    , TjsAdditionComponent
+    , TjsAdditionComponent, GbStepperComponent
   ],
   imports: [
     BrowserModule
