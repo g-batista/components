@@ -38,19 +38,28 @@ import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
 import { GbStepperComponent } from './gb-stepper/gb-stepper.component';
 
+import { MatStepperModule } from '@angular/material/stepper';
+
+
 @NgModule({
   declarations: [
     AppComponent
     , PizzaToppingsComponent
     , TjsMultiplicationComponent
-    , JvSlackNTellComponent, JtikuColorGameComponent
+    , JvSlackNTellComponent
+    , JtikuColorGameComponent
     , MtbSelectComponent
     , JacComponentComponent
     , JvSlackNTellComponent
-    , PnFizzBuzzComponent, GbatistaAddComponent
+    , PnFizzBuzzComponent
+    , GbatistaAddComponent
     , PnFizzBuzzComponent
     , BoredComponent
-    , TjsAdditionComponent, GbStepperComponent
+    , TjsAdditionComponent
+    , GbStepperComponent
+
+
+
   ],
   imports: [
     BrowserModule
@@ -62,12 +71,13 @@ import { GbStepperComponent } from './gb-stepper/gb-stepper.component';
     , MatFormFieldModule
     , MatSelectModule
     , MatInputModule
-    
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
     , MatMenuModule
     , MatRadioModule
+    ,MatStepperModule
+
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

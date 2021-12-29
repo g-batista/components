@@ -1,1 +1,41 @@
-<p>gb-stepper works!</p>
+<mat-card>
+    <mat-card-title>
+        Stepper
+    </mat-card-title>
+
+    <!-- <mat-horizontal-stepper lenear>
+        <mat-step label = "Home" completed=false >
+            <p>Home Address</p>
+            <button mat-button matStepperNext>Next</button>
+
+        </mat-step>
+        <mat-step label = "Zip#" completed=false optional=false>
+            <p>Zip</p>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+
+        </mat-step>
+        <mat-step label = "Name" completed=false>
+            <p>Enter Name</p>
+            <button mat-button matStepperPrevious>Back</button>
+        </mat-step> -->
+
+        <mat-vertical-stepper lenear>
+            <mat-step label = "Home" completed=true >
+                <p>Home Address</p>
+                <button mat-button matStepperNext>Next</button>
+    
+            </mat-step>
+            <mat-step label = "Zip#" completed=true optional=false>
+                <p>Zip</p>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+    
+            </mat-step>
+            <mat-step label = "Name" completed=true>
+                <p>Enter Name</p>
+                <button mat-button matStepperPrevious>Back</button>
+            </mat-step>
+    
+    </mat-vertical-stepper>
+</mat-card>
