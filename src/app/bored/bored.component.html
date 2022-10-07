@@ -4,10 +4,20 @@
     </mat-card-title>
     <mat-card-content>
         <div *ngFor="let activity of activities">
-            <mat-radio-button [(ngModel)]="myRadio" value="{{ activity }}" ngDefaultControl> {{ activity | titlecase }}</mat-radio-button>
+            <mat-radio-button 
+             [(ngModel)]="myRadio"
+             value="{{ activity }}" 
+             ngDefaultControl
+             >
+              {{ activity | titlecase }}
+            </mat-radio-button>
         </div>
         <br/>
-        <button mat-raised-button color="accent" (click)="findSomethingToDo()">
+        <button 
+            mat-raised-button 
+            color="accent" 
+            (click)="findSomethingToDo()"
+        >
             What To Do
         </button>
 

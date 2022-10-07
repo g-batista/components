@@ -37,19 +37,31 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
 
+import { DsAdditionComponent } from './ds-addition/ds-addition.component';
+import { MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { ReviewPizzaComponent } from './review-pizza/review-pizza.component';
+import { GbReviewComponent } from './gb-review/gb-review.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent
     , PizzaToppingsComponent
     , TjsMultiplicationComponent
-    , JvSlackNTellComponent, JtikuColorGameComponent
+    , JvSlackNTellComponent
+    , JtikuColorGameComponent
     , MtbSelectComponent
     , JacComponentComponent
     , JvSlackNTellComponent
-    , PnFizzBuzzComponent, GbatistaAddComponent
+    , PnFizzBuzzComponent
+    , GbatistaAddComponent
     , PnFizzBuzzComponent
     , BoredComponent
+    , DsAdditionComponent
+    , BoredComponent
     , TjsAdditionComponent
+    , ReviewPizzaComponent, GbReviewComponent
   ],
   imports: [
     BrowserModule
@@ -61,12 +73,12 @@ import { BoredComponent } from './bored/bored.component';
     , MatFormFieldModule
     , MatSelectModule
     , MatInputModule
-    
     , CommonModule
     , MatExpansionModule
     , MatSelectModule
     , MatMenuModule
     , MatRadioModule
+    , MatSlideToggleModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

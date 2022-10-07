@@ -1,0 +1,36 @@
+<mat-card>
+    <mat-card-title>
+        How did you hear about us?
+    </mat-card-title>
+
+    <mat-card-content>
+            <mat-slide-toggle
+            [(ngModel)]="isChecked"
+            name="aboutUs"
+            value="fb"
+            >
+                Facebook
+            </mat-slide-toggle>
+            <br>
+            <mat-slide-toggle
+                name="aboutUs"
+                value="ad"
+            >
+                Advertisement
+            </mat-slide-toggle>
+            <br>
+            <mat-slide-toggle
+                name="aboutUs"
+                value="word"
+            >
+                Word of mouth
+            </mat-slide-toggle>
+       <br>
+       <br>
+        <button mat-raised-button color="primary" (click)=thankyou()>
+            Submit
+        </button>
+        <br>
+        <br>
+    </mat-card-content>
+</mat-card>

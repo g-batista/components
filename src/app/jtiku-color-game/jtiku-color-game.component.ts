@@ -14,9 +14,24 @@ export class JtikuColorGameComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  colors = '';
-  allNums = '';
+  addName = '';
 
-  add = () => this.allNums = this.colors;
+  quiz = [
+    {
+      name: 'Add your color'
+      , color: 'green'
+  }
+];
+
+  add = () => {
+    this.quiz = [
+      ...this.quiz
+      , {
+        name: this.addName
+        , color: this.addName
+      }
+    ];
+    this.addName= '';
+  };
 
 }

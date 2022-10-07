@@ -2,35 +2,34 @@
 <mat-card>
 
     <mat-card-title>
-        Nora's week 7 slack-n-tell
+        Color Selector
     </mat-card-title>
     <mat-card-content>
         <mat-form-field>
             <mat-label>
                 Enter your favorite color
-
-
             </mat-label>
             <input 
-            
             matInput
             type="text"
-            
-            [(ngModel)]="colors"
-
+            [(ngModel)]="addName"
+          
             />
         </mat-form-field>
-
             &nbsp;
             <button 
                 mat-stroked-button
-                (click)="add()"
-            
+                (click)="add()"           
             >
                 Add Your color:
-
             </button>
-            &nbsp;
-            {{allNums}}
+            <ul>
+                <li *ngFor="let q of quiz">
+                    <span [style.color]='q.color'>
+                        {{q.name}}
+                    </span>
+                </li>
+            </ul>
+           
     </mat-card-content>
 </mat-card>

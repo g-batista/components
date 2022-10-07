@@ -17,7 +17,12 @@ export class BoredComponent implements OnInit {
 
   constructor() { 
     this.activity = '';
-    this.activities = ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"];
+    this.activities = [
+                        "education", "recreational", 
+                        "social", "diy", "charity", 
+                        "cooking", "relaxation", "music", 
+                        "busywork"
+                      ];
     this.myRadio = '';
     this.value = '';
   }
